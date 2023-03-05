@@ -1,15 +1,21 @@
-﻿internal class Program
+﻿using System.Runtime.CompilerServices;
+
+internal class Program
 {
    public  static void Main(string[] args)
     {
-        string make = "Make";
-        string modal = "Modal";
-        string year = "Year";
-        double amountPaid = 1.9;
+        Console.WriteLine("Unique Motorcar Collector! "
+            + "Please add your latest purchas to the Database: "
+            + "");
 
+        Console.Write("Make? ");
+        var make = Console.ReadLine();
+        Console.WriteLine();
 
-        Console.WriteLine("Unique Motorcar Collector! Please add your latest purchas to the Database: ");
+        Console.Write("Make? ");
+        var modal = Console.ReadLine();
+        Console.WriteLine();
 
-        Console.WriteLine(make + ": Lamborghini  " + modal + ": Miura  " + year + ": 1967  " + "Paid " + "$" + amountPaid + "Million" );
+        Console.WriteLine("Make: " + make + "\n" + "Modal: " + modal);
     }
 }
