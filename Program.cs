@@ -16,6 +16,20 @@ internal class Program
         var modal = Console.ReadLine();
         Console.WriteLine();
 
-        Console.WriteLine("Make: " + make + "\n" + "Modal: " + modal);
+        Console.Write("Year: ");
+        var year = Console.ReadLine();
+        Console.WriteLine();
+
+        Console.Write("Price: ");
+        var price = Console.ReadLine();
+        Console.WriteLine();
+
+
+        Console.WriteLine("Make: " + make + "\n" 
+            + "Modal: " + modal + "\n"
+            + "Year: " + year + "\n"
+            + "Price: " + price);
+
+        Console.WriteLine();
     }
 }
