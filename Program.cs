@@ -4,6 +4,7 @@ internal class Program
 {
    public  static void Main(string[] args)
     {
+        //Basic user input
         Console.WriteLine("Unique Motorcar Collector! "
             + "Please add your latest purchas to the Database: "
             + "");
@@ -24,12 +25,12 @@ internal class Program
         var price = Console.ReadLine();
         Console.WriteLine();
 
-
+        //Storing user input
         Console.WriteLine("Make: " + make + "\n" 
             + "Modal: " + modal + "\n"
             + "Year: " + year + "\n"
             + "Price: " + price);
 
-        Console.WriteLine();
+        //Save to the database
     }
 }
