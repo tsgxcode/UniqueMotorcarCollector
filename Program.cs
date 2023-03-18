@@ -25,12 +25,18 @@ internal class Program
         var price = Console.ReadLine();
         Console.WriteLine();
 
+
         //Storing user input
         Console.WriteLine("Make: " + make + "\n" 
             + "Modal: " + modal + "\n"
             + "Year: " + year + "\n"
             + "Price: " + price);
 
+
         //Save to the database
+        { 
+            //Next Step...
+        
+        }
     }
 }
