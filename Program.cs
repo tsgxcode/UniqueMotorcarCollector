@@ -1,42 +1,31 @@
-﻿using System.Runtime.CompilerServices;
+﻿using System;
 
 internal class Program
 {
-   public  static void Main(string[] args)
+    public static void Main()
     {
         //Basic user input
         Console.WriteLine("Unique Motorcar Collector! "
-            + "Please add your latest purchas to the Database: "
+            + "Please add your latest purchase to the Database: "
             + "");
-
+        //Refactored: Import and store user input
         Console.Write("Make? ");
         var make = Console.ReadLine();
-        Console.WriteLine();
+        Console.WriteLine(make);
 
-        Console.Write("Make? ");
+        Console.Write("Modal? ");
         var modal = Console.ReadLine();
-        Console.WriteLine();
+        Console.WriteLine(modal);
 
-        Console.Write("Year: ");
+        Console.Write("Year? ");
         var year = Console.ReadLine();
-        Console.WriteLine();
+        Console.WriteLine(year);
 
-        Console.Write("Price: ");
-        var price = Console.ReadLine();
-        Console.WriteLine();
-
-
-        //Storing user input
-        Console.WriteLine("Make: " + make + "\n" 
-            + "Modal: " + modal + "\n"
-            + "Year: " + year + "\n"
-            + "Price: " + price);
-
-
+        // TO DOs:
         //Save to the database
-        { 
+        {
             //Next Step...
-        
+
         }
     }
 }
