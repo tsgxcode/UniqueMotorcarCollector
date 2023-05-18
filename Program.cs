@@ -5,26 +5,31 @@ internal class Program
     public static void Main()
     {
         //Basic user input
+        
         Console.WriteLine("Unique Motorcar Collector Restorations! "
-            + "Please add your latest purchase to the Database: "
-            + "");
+            + "\n" + "Please add your latest purchase to the Database: "
+            + "" + "\n");
+        //Changing color of section to maked each a bit easier ro read.
+        
+        Console.ForegroundColor = ConsoleColor.Yellow;
+
         //Refactored: Import and store user input
-        Console.Write("Make? ");
+        Console.Write("Make: ");
         var make = Console.ReadLine();
-        Console.WriteLine(make);
 
-        Console.Write("Modal? ");
+        Console.Write("Modal: ");
         var modal = Console.ReadLine();
-        Console.WriteLine(modal);
 
-        Console.Write("Year? ");
+        Console.Write("Year: ");
         var year = Console.ReadLine();
-        Console.WriteLine(year);
+        Console.Write("\n");
+
+
+
+        Console.ForegroundColor = ConsoleColor.Green;
 
         Console.Write("Customer Info: ");
         var cusInfo = Console.ReadLine();
-        Console.WriteLine(cusInfo);
-
         //Send to teams for restoration stage
 
 
