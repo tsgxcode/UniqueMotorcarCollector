@@ -9,7 +9,7 @@ internal class Program
         Console.WriteLine("Unique Motorcar Collector Restorations! "
             + "\n" + "Please add your latest purchase to the Database: "
             + "" + "\n");
-        //Changing color of section to maked each a bit easier ro read.
+        //Changing color of section to maked each a bit easier to read.
         
         Console.ForegroundColor = ConsoleColor.Yellow;
 
