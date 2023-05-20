@@ -4,16 +4,31 @@ internal class Program
 {
     public static void Main()
     {
-        //Basic user input
-        
-        Console.WriteLine("Unique Motorcar Collector Restorations! "
-            + "\n" + "Please add your latest purchase to the Database: "
-            + "" + "\n");
-        //Changing color of section to maked each a bit easier to read.
-        
-        Console.ForegroundColor = ConsoleColor.Yellow;
+        //Unique Motorcar Collector Restorations V. 1.01
+        Console.WriteLine("Welcome! Unique Motorcar Collector Restorations! " + "\n" );
 
-        //Refactored: Import and store user input
+        Console.ForegroundColor = ConsoleColor. DarkYellow;
+        Console.WriteLine("Owner info: " + "\n");
+        Console.ResetColor();
+        
+        Console.Write("Name: ");
+        var name = Console.ReadLine();
+
+        Console.Write("Address: ");
+        var address = Console.ReadLine();
+
+        Console.Write("Phone: ");
+        var phone = Console.ReadLine();
+
+        Console.Write("Email: ");
+        var eMail = Console.ReadLine();
+        Console.Write("\n");
+
+        //Add vehicle info
+        Console.ForegroundColor = ConsoleColor.Yellow;
+        Console.WriteLine("Vehicle info: ");
+        Console.ResetColor();
+
         Console.Write("Make: ");
         var make = Console.ReadLine();
 
@@ -24,14 +39,25 @@ internal class Program
         var year = Console.ReadLine();
         Console.Write("\n");
 
+        Console.Write("Date submited to UMCR: " + "\n");
+        var subDate = Console.ReadLine();
+        Console.Write("\n");
 
+        Console.ResetColor();
 
-        Console.ForegroundColor = ConsoleColor.Green;
+        Console.ForegroundColor = ConsoleColor.Magenta;
+        Console.WriteLine("Cost estimate and deposit. Note: Min. 20% required: " + "\n");
+        Console.ResetColor();
 
-        Console.Write("Customer Info: ");
-        var cusInfo = Console.ReadLine();
-        //Send to teams for restoration stage
+        Console.Write("Total cost estimate: ");
+        var costEst = Console.ReadLine();
+        Console.Write("\n");
 
+        Console.Write("Deposit: ");
+        var minDeposit = Console.ReadLine();
+        Console.Write("\n");
+
+        //Send to garage teams for restoration stage
 
 
 
