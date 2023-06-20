@@ -1,24 +1,19 @@
 ﻿using System;
 using UniqueMotorcarCollector;
 
-internal class Program
+class Program
 {
 
-    /* Send to one of three garages/teams depending on restoration step
-            to be determind by the service tech, for next restoration stage.
-            string garageTwo = "Garage 2 Paint?";
-            string garageThree = "Garage 3 Finish ?";
+
+    /* 
 
 
+// TO DOs:
+//Save to the database
+{
+//Next Step...
 
-
-            // TO DOs:
-            //Save to the database
-            {
-                //Next Step...
-
-            }*/
-
+}*/
 
     public static void Main()
     {
@@ -37,9 +32,9 @@ internal class Program
         Console.Write("Address: ");
         var address = Console.ReadLine();
 
+
         Console.Write("Phone: ");
         var phone = Console.ReadLine();
-
 
         Console.Write("Email: ");
         var eMail = Console.ReadLine();
