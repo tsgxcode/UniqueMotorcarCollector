@@ -91,15 +91,12 @@ class Program
                     Console.WriteLine("Invalid input. Please enter a valid number.");
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 // Exception handling code goes here
-                Console.WriteLine($"An error occurred: {ex.Message}");
+                Console.WriteLine($"An error occurred: {{}}");
             }
         }
-
-        // Use the valid 'year' input for further processing
-        //Console.WriteLine($"Year: {""}");
 
         Console.Write("\n");
     }
